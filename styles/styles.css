@@ -96,7 +96,7 @@
     background-position: center;
     width: 1320px;
     height: 600px;
-    margin: 0 140px 0;
+    margin: 140px 140px 0;
 
 }
 
@@ -289,5 +289,85 @@
 /* .best-offer-text-left img{
     
 } */
+
+/* Holiday Sale */
+
+.holiday-sale {
+    margin: 140px;
+}
+
+.holiday-sale-text {
+    text-align: center;
+}
+
+.holiday-sale-text p:nth-of-type(1) {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holiday-sale-text p:nth-of-type(2) {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 0;
+}
+
+.holiday-sale-text p:nth-of-type(2) span {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday-sale-text p:nth-of-type(3) {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 65px;
+}
+
+.holiday-sale-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url("../images/Rectangle-2.png");
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 665px;
+    margin: 0;
+    background-position: bottom;
+}
+.holiday-sale-img img:nth-of-type(1){
+    transform: scale(0.90);
+    margin: 0;
+    position: absolute;
+    left: 100px;
+    
+}
+.holiday-sale-img img:nth-of-type(2){
+    margin: 0;
+    position: absolute;
+    z-index: 1; 
+    right: 340px;
+}
+.holiday-sale-img img:nth-of-type(3){
+    margin: 0;
+    position: absolute;
+    right: 55px;
+}
 
 
