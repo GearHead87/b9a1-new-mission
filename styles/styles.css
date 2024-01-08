@@ -5,7 +5,7 @@
     width: 1320px;
     height: 600px;
 
-    margin: auto;
+    margin: 140px;
 }
 
 .greetings-text {
@@ -49,8 +49,8 @@
 
 .new-year-deal {
     display: block;
-    margin: 120px 390px 0;
-
+    margin: 120px;
+    width: 1320px;
 }
 
 .new-year-deal-off {
@@ -84,6 +84,10 @@
     font-weight: 700;
     line-height: normal;
     margin: 0 0 50px 0;
+}
+
+.new-year-deal img {
+    margin: 0 300px;
 }
 
 /* Party */
@@ -295,6 +299,7 @@
 
 .holiday-sale {
     margin: 140px;
+    width: 1320px;
 }
 
 .holiday-sale-text {
@@ -365,13 +370,13 @@
     margin: 0;
     position: absolute;
     z-index: 1;
-    right: 340px;
+    left: 900px;
 }
 
 .holiday-sale-img img:nth-of-type(3) {
     margin: 0;
     position: absolute;
-    right: 55px;
+    left: 1040px;
 }
 
 
@@ -433,7 +438,7 @@
     border-radius: 16px;
 }
 
-.portpolio-img img:hover{
+.portpolio-img img:hover {
     border: 2px solid #070211;
 }
 
@@ -505,3 +510,83 @@
     margin: 0;
 }
 
+/* Footer */
+
+footer {
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+}
+
+.website-information {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.address {
+    width: 375px;
+    padding-left: 140px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.information {
+    display: block;
+    padding-right: 275px;
+}
+
+.information img {
+    margin: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+.information p {
+    display: inline;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+footer>hr {
+    width: 1320px;
+    height: 1px;
+    border: 0;
+    background: rgba(255, 255, 255, 0.15);
+    margin: 50px 140px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-media img {
+    margin: 0px 24px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.copyright p {
+    margin: 0 140px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
